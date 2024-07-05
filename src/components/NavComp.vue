@@ -1,46 +1,67 @@
 <template>
   <nav class="bg-slate-100 border-gray-200 px-2 sm:px-4 py-2.5 mt-10 sm:w-1/3 lg:w-full">
     <div class="container flex flex-wrap items-center justify-between mx-auto">
-      <a href="https://flowbite.com/" class="flex items-center">
-        <img
-          src="https://flowbite.com/docs/images/logo.svg"
-          class="mr-3 h-6 sm:h-9"
-          alt="Flowbite Logo"
-        />
-      </a>
+      <svg
+        fill="#0f172a"
+        height="40px"
+        width="40px"
+        viewBox="0 0 846.66 846.66"
+        style="
+          shape-rendering: geometricPrecision;
+          text-rendering: geometricPrecision;
+          image-rendering: optimizeQuality;
+          fill-rule: evenodd;
+          clip-rule: evenodd;
+        "
+        version="1.1"
+        xml:space="preserve"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+      >
+        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+        <g id="SVGRepo_iconCarrier">
+          <g id="Layer_x0020_1">
+            <path
+              class="fil0"
+              d="M30.88 111.05l784.9 0c11.4,0 20.64,9.24 20.64,20.64l0 583.28c0,11.4 -9.24,20.64 -20.64,20.64l-784.9 0c-11.4,0 -20.64,-9.24 -20.64,-20.64l0 -583.28c0,-11.4 9.24,-20.64 20.64,-20.64zm146.05 288.17c0,27.16 -41.29,27.16 -41.29,0 0,-32.49 15.12,-63.05 40.68,-82.92 -1.61,-2.27 -3.11,-4.62 -4.48,-7.04 -6.45,-11.45 -10.12,-24.63 -10.12,-38.63 0,-43.57 35.32,-78.89 78.89,-78.89 43.56,0 78.89,35.32 78.89,78.89 0,16.39 -5.09,32.34 -14.61,45.67 25.57,19.87 40.69,50.43 40.69,82.92 0,27.16 -41.29,27.16 -41.29,0 0,-23.44 -12.59,-44.7 -33.14,-55.92 -9.59,4.06 -20.13,6.22 -30.54,6.22 -10.41,0 -20.96,-2.16 -30.55,-6.22 -20.54,11.22 -33.13,32.48 -33.13,55.92zm-55.14 91.99l237.63 0c11.4,0 20.65,9.25 20.65,20.65l0 122.41c0,11.4 -9.25,20.65 -20.65,20.65l-237.63 0c-11.4,0 -20.64,-9.25 -20.64,-20.65l0 -122.41c0,-11.4 9.24,-20.65 20.64,-20.65zm216.99 41.29l-196.34 0 0 81.13 196.34 0 0 -81.13zm-98.17 -299.47c-20.77,0 -37.6,16.83 -37.6,37.6 0,21.09 16.9,37.6 37.6,37.6 20.72,0 37.6,-16.69 37.6,-37.6 0,-20.77 -16.84,-37.6 -37.6,-37.6zm183.62 29.12c-27.15,0 -27.15,-41.29 0,-41.29l300.64 0c27.15,0 27.15,41.29 0,41.29l-300.64 0zm46.81 363.65c-27.16,0 -27.16,-41.3 0,-41.3l253.83 0c27.15,0 27.15,41.3 0,41.3l-253.83 0zm-46.81 -272.74c-27.15,0 -27.15,-41.29 0,-41.29l300.64 0c27.15,0 27.15,41.29 0,41.29l-300.64 0zm46.81 90.91c-27.16,0 -27.16,-41.29 0,-41.29l253.83 0c27.15,0 27.15,41.29 0,41.29l-253.83 0zm0 90.92c-27.16,0 -27.16,-41.3 0,-41.3l253.83 0c27.15,0 27.15,41.3 0,41.3l-253.83 0zm324.09 -382.55l-743.6 0 0 541.98 743.6 0 0 -541.98z"
+            ></path>
+          </g>
+        </g>
+      </svg>
       <div class="flex md:order-2">
         <a
           href="#"
           @click.prevent="scrollTo('home')"
-          class="bg-indigo-700 hover:bg-indigo-950 text-white font-bold py-2 px-4 rounded"
+          class="bg-slate-900 hover:bg-slate-800 text-white font-bold py-2 px-4 rounded"
         >
           Home
         </a>
         <a
           href="#"
           @click.prevent="scrollTo('education')"
-          class="bg-indigo-700 hover:bg-indigo-950 text-white font-bold py-2 px-4 ml-2 rounded"
+          class="bg-slate-900 hover:bg-slate-800 text-white font-bold py-2 px-4 ml-2 rounded"
         >
           Education
         </a>
         <a
           href="#"
           @click.prevent="scrollTo('experience')"
-          class="bg-indigo-700 hover:bg-indigo-950 text-white font-bold py-2 px-4 ml-2 rounded"
+          class="bg-slate-900 hover:bg-slate-800 text-white font-bold py-2 px-4 ml-2 rounded"
         >
           Experience
         </a>
         <a
           href="#"
           @click.prevent="scrollTo('projects')"
-          class="bg-indigo-700 hover:bg-indigo-950 text-white font-bold py-2 px-4 ml-2 rounded"
+          class="bg-slate-900 hover:bg-slate-800 text-white font-bold py-2 px-4 ml-2 rounded"
         >
           Projects
         </a>
         <a
           href="#"
           @click.prevent="scrollTo('contact')"
-          class="bg-indigo-700 hover:bg-indigo-950 text-white font-bold py-2 px-4 ml-2 rounded"
+          class="bg-slate-900 hover:bg-slate-800 text-white font-bold py-2 px-4 ml-2 rounded"
         >
           Contact
         </a>
@@ -51,6 +72,7 @@
   <Home ref="home" />
   <Education ref="education" />
   <Experience ref="experience" />
+  <Project ref="projects" />
 </template>
 
 <script setup>
@@ -58,13 +80,15 @@ import { ref } from 'vue'
 import Home from './HomeComp.vue'
 import Education from './EducationComp.vue'
 import Experience from './ExperienceComp.vue'
+import Project from './ProjectComp.vue'
 
 const home = ref(null)
 const education = ref(null)
 const experience = ref(null)
+const projects = ref(null)
 
 const scrollTo = (section) => {
-  const sectionRef = { home, education, experience }[section]
+  const sectionRef = { home, education, experience, projects }[section]
   if (sectionRef.value) {
     sectionRef.value.$el.scrollIntoView({ behavior: 'smooth' })
   }

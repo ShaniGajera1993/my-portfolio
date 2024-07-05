@@ -1,17 +1,17 @@
 <template>
   <section id="home">
     <div
-      class="res bg-slate-100 bg-gradient-to-b from-blue-500 via-indigo-700 to-indigo-950 mt-10 sm:w-full md:w-full lg:w-full group"
+      class="res bg-slate-100 bg-gradient-to-b from-slate-100 via-slate-400 to-slate-900 mt-10 sm:w-full md:w-full lg:w-full group"
     >
       <div class="res-flex flex justify-center items-center px-4 mx-auto mt-10">
         <div class="flex flex-col justify-center items-start">
           <h1
-            class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white"
+            class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-slate-900"
           >
-            Hello, I'm <span class="text-white group-hover:text-indigo-950">Shani</span>
+            Hello, I'm <span class="text-slate-900 group-hover:text-black">Shani</span>
           </h1>
           <p
-            class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400"
+            class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-slate-800"
           >
             I'm a full stack developer who specializes in web development.
           </p>
