@@ -73,6 +73,7 @@
   <Education ref="education" />
   <Experience ref="experience" />
   <Project ref="projects" />
+  <Contact ref="contact" />
 </template>
 
 <script setup>
@@ -81,14 +82,16 @@ import Home from './HomeComp.vue'
 import Education from './EducationComp.vue'
 import Experience from './ExperienceComp.vue'
 import Project from './ProjectComp.vue'
+import Contact from './ContactComp.vue'
 
 const home = ref(null)
 const education = ref(null)
 const experience = ref(null)
 const projects = ref(null)
+const contact = ref(null)
 
 const scrollTo = (section) => {
-  const sectionRef = { home, education, experience, projects }[section]
+  const sectionRef = { home, education, experience, projects, contact }[section]
   if (sectionRef.value) {
     sectionRef.value.$el.scrollIntoView({ behavior: 'smooth' })
   }
