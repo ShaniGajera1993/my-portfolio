@@ -1,5 +1,5 @@
 <template>
-  <section id="education">
+  <section id="projects">
     <div class="bg-slate-100 mt-10 sm:w-1/3 lg:w-full">
       <div class="flex justify-center items-center mx-auto max-w-screen-xl">
         <div class="flex justify-center items-end">
@@ -26,29 +26,50 @@
           <h6
             class="max-w-2xl text-2xl font-extrabold tracking-tight leading-none md:text-2xl xl:text-2xl dark:text-slate-900 ml-1"
           >
-            Education
+            Projects
           </h6>
         </div>
       </div>
 
       <div class="flex justify-center items-center mt-10 mx-auto max-w-screen-xl">
         <div
-          class="group w-1/3 bg-slate-100 border border-slate-900 rounded-lg m-5 p-5 hover:scale-105 transition-all duration-500"
+          class="group w-1/3 ml-5 border border-slate-900 rounded-lg p-5 hover:scale-105 transition-all duration-500"
         >
-          <h5 class="mb-2 text-2xl font-bold tracking-tight text-slate-900">Associate's Degree</h5>
-          <p class="mb-3 font-normal text-slate-800">University of California, Berkeley</p>
-          <p>
-            <span class="text-slate-800"> GPA: 3.9 </span>
-          </p>
+          <img
+            class="object-fill h-48 w-96"
+            src="https://lluviadigital.com/wp-content/uploads/2023/09/ecommerce.webp"
+            alt="project1"
+          />
+          <h5 class="mb-2 mt-5 text-2xl font-bold tracking-tight text-slate-900">
+            E-commerce Website
+          </h5>
+          <p class="mb-3 font-normal text-slate-800">Tech: PHP, Laravel, MySQL, Bootstrap</p>
         </div>
         <div
-          class="group w-1/3 ml-5 bg-slate-100 border border-slate-900 rounded-lg p-5 hover:scale-105 transition-all duration-500"
+          class="group w-1/3 ml-5 border border-slate-900 rounded-lg p-5 hover:scale-105 transition-all duration-500"
         >
-          <h5 class="mb-2 text-2xl font-bold tracking-tight text-black">Associate's Degree</h5>
-          <p class="mb-3 font-normal text-slate-800">University of California, Berkeley</p>
-          <p>
-            <span class="text-slate-800"> GPA: 3.9 </span>
-          </p>
+          <img
+            class="object-fill h-48 w-96"
+            src="https://www.datocms-assets.com/48294/1680848744-rest-api-1-rest-api.png?auto=format"
+            alt="project2"
+          />
+          <h5 class="mb-2 mt-5 text-2xl font-bold tracking-tight text-slate-900">
+            REST API - Laravel
+          </h5>
+          <p class="mb-3 font-normal text-slate-800">Tech: PHP, Laravel, MySQL</p>
+        </div>
+        <div
+          class="group w-1/3 ml-5 border border-slate-900 rounded-lg p-5 hover:scale-105 transition-all duration-500"
+        >
+          <img
+            class="object-fill h-48 w-96"
+            src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fc/f0/06/fcf006af-d55e-92b7-82f6-0e113438abab/AppIcons-0-1x_U007emarketing-0-7-0-85-220-0.png/1200x600wa.png"
+            alt="project3"
+          />
+          <h5 class="mb-2 mt-5 text-2xl font-bold tracking-tight text-slate-900">
+            Laravel App Deployment to Azure
+          </h5>
+          <p class="mb-3 font-normal text-slate-800">Tech: Laravel, Azure, GitHub, Docker, CI/CD</p>
         </div>
       </div>
     </div>

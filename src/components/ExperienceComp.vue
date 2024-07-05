@@ -1,6 +1,8 @@
 <template>
   <section id="expience">
-    <div class="bg-slate-100 mt-10 sm:w-1/3 lg:w-full">
+    <div
+      class="bg-slate-100 bg-gradient-to-b from-slate-100 via-slate-300 to-slate-100 mt-10 sm:w-1/3 lg:w-full"
+    >
       <div class="flex justify-center items-center mx-auto max-w-screen-xl">
         <div class="flex justify-center items-end">
           <svg
@@ -12,6 +14,7 @@
             id="Layer_1"
             version="1.1"
             xml:space="preserve"
+            fill="#0f172a"
           >
             <path
               class="st0"
@@ -23,38 +26,30 @@
             />
           </svg>
           <h6
-            class="max-w-2xl text-2xl font-extrabold tracking-tight leading-none md:text-2xl xl:text-2xl dark:text-black ml-1"
+            class="max-w-2xl text-2xl font-extrabold tracking-tight leading-none md:text-2xl xl:text-2xl dark:text-slate-900 ml-1"
           >
             Experience
           </h6>
         </div>
       </div>
 
-      <div class="flex flex-row justify-center items-center mt-10 mx-auto max-w-screen-xl">
+      <div class="flex justify-center items-center mt-10 mx-auto max-w-screen-xl">
         <div
-          class="group w-1/2 bg-white border border-gray-200 rounded-lg shadow m-5 hover:bg-gradient-to-b from-blue-950 via-indigo-700 to-indigo-500 p-5"
+          class="group w-1/3 border border-slate-900 rounded-lg m-5 p-5 hover:scale-105 transition-all duration-500"
         >
-          <h5 class="mb-2 text-2xl font-bold tracking-tight text-black group-hover:text-white">
-            Software Engineer
-          </h5>
-          <p class="mb-3 font-normal text-gray-700 group-hover:text-slate-300">
-            Amazon Web Services
-          </p>
+          <h5 class="mb-2 text-2xl font-bold tracking-tight text-slate-900">Software Engineer</h5>
+          <p class="mb-3 font-normal text-slate-800">Amazon Web Services</p>
           <p>
-            <span class="text-gray-700 group-hover:text-slate-300"> Year: 2022 </span>
+            <span class="text-slate-800"> Year: 2021-2022 </span>
           </p>
         </div>
         <div
-          class="group w-1/2 bg-white border border-gray-200 rounded-lg shadow p-5 hover:bg-gradient-to-b from-blue-950 via-indigo-700 to-indigo-500"
+          class="group w-1/3 ml-5 border border-slate-900 rounded-lg p-5 hover:scale-105 transition-all duration-500"
         >
-          <h5 class="mb-2 text-2xl font-bold tracking-tight text-black group-hover:text-white">
-            Software Engineer
-          </h5>
-          <p class="mb-3 font-normal text-gray-700 group-hover:text-slate-300">
-            Amazon Web Services
-          </p>
+          <h5 class="mb-2 text-2xl font-bold tracking-tight text-black">Software Engineer</h5>
+          <p class="mb-3 font-normal text-slate-800">Amazon Web Services</p>
           <p>
-            <span class="text-gray-700 group-hover:text-slate-300"> Year: 2022 </span>
+            <span class="text-slate-800"> Year: 2022-present </span>
           </p>
         </div>
       </div>
